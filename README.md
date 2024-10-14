@@ -22,8 +22,8 @@ Race Condition으로 공유 자원인 `race.tmp` 파일을 변경함으로써, r
 
 3. 두 파일을 실행합니다:
    ```bash
-   sudo python3 race.py &
-   sudo python3 race_hack.py
+   python3 race.py &
+   python3 race_hack.py
    ```
 
 4. `race.txt`를 확인합니다:
